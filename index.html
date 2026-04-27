@@ -334,13 +334,22 @@ Calculate 6-Month Risk Profile
 </div>
 </section>
 
+<footer class="mt-8 mb-4 text-center text-sm text-gray-400">
+<p>
+Source repository:
+<a href="https://github.com/courtenay100/ct-fuel-crisis-tracker" target="_blank" rel="noopener noreferrer" class="text-[#5BC0BE] hover:text-[#FCA311] underline transition-colors">
+courtenay100/ct-fuel-crisis-tracker
+</a>
+</p>
+</footer>
+
 </div>
 
 <style>
 /* Print Styles to make the report look clean on paper */
 @media print {
   body { background-color: white; color: black; }
-  .ticker-wrap, button, select, input, label, .chart-container, header, section:not(:last-child) { display: none !important; }
+  .ticker-wrap, button, select, input, label, .chart-container, header, footer, section:not(:last-child) { display: none !important; }
   section:last-child { border: none; box-shadow: none; padding: 0; }
   #predict-output-container { border: none; background: transparent; color: black; }
   .text-\[\#FCA311\], .text-\[\#5BC0BE\] { color: black !important; }
